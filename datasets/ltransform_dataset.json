@@ -1,0 +1,2924 @@
+[
+  {
+    "name":"II.6.15b_1_0",
+    "symbols":[
+      "p_d",
+      "Ef",
+      "epsilon",
+      "theta",
+      "r"
+    ],
+    "symbol_descs":[
+      "the dipole moment",
+      "the electric field",
+      "the electric constant or permittivity of the medium",
+      "the angle between the dipole axis and the position vector",
+      "the distance from the dipole to the point where the electric field is being measured"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"8*pi*Ef*epsilon*r**3\/(3*sin(2*theta))"
+  },
+  {
+    "name":"II.6.15a_1_0",
+    "symbols":[
+      "p_d",
+      "Ef",
+      "epsilon",
+      "r",
+      "x",
+      "y",
+      "z"
+    ],
+    "symbol_descs":[
+      "the electric dipole moment",
+      "the electric field strength at a point",
+      "the electric constant (permittivity of free space)",
+      "the distance from the dipole to the point where the field is being measured",
+      "the x-coordinate of the point where the field is being measured",
+      "the y-coordinate of the point where the field is being measured",
+      "the z-coordinate of the point where the field is being measured"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"4*pi*Ef*epsilon*r**5\/(3*z*sqrt(x**2 + y**2))"
+  },
+  {
+    "name":"II.36.38_1_0",
+    "symbols":[
+      "H",
+      "f",
+      "mom",
+      "kb",
+      "T",
+      "alpha",
+      "epsilon",
+      "c",
+      "M"
+    ],
+    "symbol_descs":[
+      "the magnetic field strength",
+      "the resultant value of the function",
+      "the momentum of an object or particle",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the polarizability of a medium or molecule",
+      "the electric permittivity of a medium",
+      "the speed of light in vacuum",
+      "the magnetization of a material"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"M*alpha\/(c**2*epsilon) + T*f*kb\/mom"
+  },
+  {
+    "name":"II.15.5_0_0",
+    "symbols":[
+      "p_d",
+      "E_n",
+      "Ef",
+      "theta"
+    ],
+    "symbol_descs":[
+      "the dipole moment per unit area",
+      "the normal component of the electric field at the surface",
+      "the external electric field",
+      "the angle between the dipole moment and the external electric field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-E_n\/(Ef*cos(theta))"
+  },
+  {
+    "name":"I.48.2_1_0",
+    "symbols":[
+      "v",
+      "E_n",
+      "m",
+      "c"
+    ],
+    "symbol_descs":[
+      "the object's velocity",
+      "the total energy of an object",
+      "the relativistic mass of an object",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-c*sqrt(1 - c**4*m**2\/E_n**2)"
+  },
+  {
+    "name":"II.35.21_2_1",
+    "symbols":[
+      "B",
+      "M",
+      "n_rho",
+      "mom",
+      "kb",
+      "T"
+    ],
+    "symbol_descs":[
+      "the magnetic field strength",
+      "the magnetization of a material",
+      "the density of magnetic moments",
+      "the magnetic moment of a particle",
+      "the Boltzmann constant",
+      "the temperature in Kelvin"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*log(sqrt(-(M + mom*n_rho)\/(M - mom*n_rho)))\/mom"
+  },
+  {
+    "name":"II.35.18_0_0",
+    "symbols":[
+      "n_0",
+      "n",
+      "kb",
+      "T",
+      "mom",
+      "B"
+    ],
+    "symbol_descs":[
+      "the number of particles at equilibrium",
+      "the number of particles in a given state",
+      "the Boltzmann constant",
+      "the temperature of the system",
+      "the magnetic moment of a particle",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"n*exp(B*mom\/(T*kb)) + n*exp(-B*mom\/(T*kb))"
+  },
+  {
+    "name":"III.15.14_1_0",
+    "symbols":[
+      "E_n",
+      "m",
+      "h",
+      "d"
+    ],
+    "symbol_descs":[
+      "the nth energy level of the system",
+      "the mass of a particle in a quantum mechanical system",
+      "the Planck constant",
+      "the width or distance between the boundaries of the quantum well"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"h**2\/(8*pi**2*d**2*m)"
+  },
+  {
+    "name":"II.6.15a_2_0",
+    "symbols":[
+      "r",
+      "Ef",
+      "epsilon",
+      "p_d",
+      "x",
+      "y",
+      "z"
+    ],
+    "symbol_descs":[
+      "the distance from the dipole to the point where the field is being measured",
+      "the electric field strength at a point",
+      "the electric constant (permittivity of free space)",
+      "the electric dipole moment",
+      "the x-coordinate of the point where the field is being measured",
+      "the y-coordinate of the point where the field is being measured",
+      "the z-coordinate of the point where the field is being measured"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2**(3\/5)*3**(1\/5)*(p_d*z*sqrt(x**2 + y**2)\/(Ef*epsilon))**(1\/5)\/(2*pi**(1\/5))"
+  },
+  {
+    "name":"II.13.23_1_0",
+    "symbols":[
+      "v",
+      "rho_c",
+      "rho_c_0",
+      "c"
+    ],
+    "symbol_descs":[
+      "the velocity of the object or frame of reference",
+      "the critical density of the universe at a given velocity",
+      "the critical density of the universe at rest",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-c*sqrt(1 - rho_c_0**2\/rho_c**2)"
+  },
+  {
+    "name":"I.24.6_3_1",
+    "symbols":[
+      "x",
+      "E_n",
+      "m",
+      "omega",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the displacement from the equilibrium position",
+      "the quantum mechanical energy of the nth state",
+      "the mass of the object",
+      "the angular frequency of the perturbation",
+      "the natural angular frequency"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*sqrt(E_n\/(m*(omega**2 + omega_0**2)))"
+  },
+  {
+    "name":"I.32.5_1_1",
+    "symbols":[
+      "a",
+      "Pwr",
+      "q",
+      "epsilon",
+      "c"
+    ],
+    "symbol_descs":[
+      "the acceleration of the charged particle",
+      "the power of an electromagnetic wave",
+      "the charge of a particle",
+      "the electric constant or permittivity of free space",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(6)*sqrt(pi)*sqrt(Pwr*c**3*epsilon)\/q"
+  },
+  {
+    "name":"I.32.5_0_1",
+    "symbols":[
+      "q",
+      "Pwr",
+      "a",
+      "epsilon",
+      "c"
+    ],
+    "symbol_descs":[
+      "the charge of a particle",
+      "the power of an electromagnetic wave",
+      "the acceleration of the charged particle",
+      "the electric constant or permittivity of free space",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(6)*sqrt(pi)*sqrt(Pwr*c**3*epsilon)\/a"
+  },
+  {
+    "name":"III.9.52_0_0",
+    "symbols":[
+      "p_d",
+      "prob",
+      "Ef",
+      "t",
+      "h",
+      "omega",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the dipole moment of the transition",
+      "the transition probability of an atomic system",
+      "the amplitude of the external electric field",
+      "the interaction time between the atomic system and the external field",
+      "the Planck constant",
+      "the frequency of the external field",
+      "the resonant frequency of the atomic transition"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"h*prob*t*(omega - omega_0)**2\/(4*pi*Ef*(1 - cos(t*(omega - omega_0))))"
+  },
+  {
+    "name":"III.19.51_1_0",
+    "symbols":[
+      "q",
+      "E_n",
+      "m",
+      "h",
+      "n",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the elementary charge",
+      "the energy of the nth energy level",
+      "the mass of the electron",
+      "the Planck constant",
+      "the principal quantum number",
+      "the electric constant (permittivity of free space)"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-2**(3\/4)*(-E_n*epsilon**2*h**2*n**2\/m)**(1\/4)"
+  },
+  {
+    "name":"II.27.18_1_0",
+    "symbols":[
+      "Ef",
+      "E_den",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the electric field strength",
+      "the energy density",
+      "the electric permittivity"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(E_den\/epsilon)"
+  },
+  {
+    "name":"II.37.1_0_0",
+    "symbols":[
+      "mom",
+      "E_n",
+      "B",
+      "chi"
+    ],
+    "symbol_descs":[
+      "the magnetic moment",
+      "the nth energy level",
+      "the magnetic field strength",
+      "the magnetic susceptibility"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n\/(B*(chi + 1))"
+  },
+  {
+    "name":"I.43.43_0_0",
+    "symbols":[
+      "gamma",
+      "kappa",
+      "kb",
+      "A",
+      "v"
+    ],
+    "symbol_descs":[
+      "the adiabatic index",
+      "the isentropic expansion factor",
+      "Boltzmann's constant",
+      "a constant area",
+      "the velocity"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"1 + kb*v\/(A*kappa)"
+  },
+  {
+    "name":"I.24.6_1_1",
+    "symbols":[
+      "omega",
+      "E_n",
+      "m",
+      "omega_0",
+      "x"
+    ],
+    "symbol_descs":[
+      "the angular frequency of the perturbation",
+      "the quantum mechanical energy of the nth state",
+      "the mass of the object",
+      "the natural angular frequency",
+      "the displacement from the equilibrium position"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(4*E_n\/m - omega_0**2*x**2)\/x"
+  },
+  {
+    "name":"II.24.17_0_1",
+    "symbols":[
+      "omega",
+      "k",
+      "c",
+      "d"
+    ],
+    "symbol_descs":[
+      "the angular frequency",
+      "the wave number",
+      "the speed of the wave",
+      "the diameter or thickness of the waveguide or medium"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c*sqrt(d**2*k**2 + pi**2)\/d"
+  },
+  {
+    "name":"II.36.38_7_0",
+    "symbols":[
+      "M",
+      "f",
+      "mom",
+      "H",
+      "kb",
+      "T",
+      "alpha",
+      "epsilon",
+      "c"
+    ],
+    "symbol_descs":[
+      "the magnetization of a material",
+      "the resultant value of the function",
+      "the momentum of an object or particle",
+      "the magnetic field strength",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the polarizability of a medium or molecule",
+      "the electric permittivity of a medium",
+      "the speed of light in vacuum"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c**2*epsilon*(H*mom - T*f*kb)\/(alpha*mom)"
+  },
+  {
+    "name":"II.11.3_3_1",
+    "symbols":[
+      "omega_0",
+      "x",
+      "q",
+      "Ef",
+      "m",
+      "omega"
+    ],
+    "symbol_descs":[
+      "the natural angular frequency of the oscillation",
+      "the displacement of an object from its equilibrium position",
+      "the electric charge of the object",
+      "the external electric field strength",
+      "the mass of the object",
+      "the angular frequency of the external force"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(Ef*q\/(m*x) + omega**2)"
+  },
+  {
+    "name":"II.15.4_1_0",
+    "symbols":[
+      "B",
+      "E_n",
+      "mom",
+      "theta"
+    ],
+    "symbol_descs":[
+      "the magnetic field strength",
+      "the normal component of the electric field",
+      "the magnetic moment of a magnet",
+      "the angle between the magnetic moment and the magnetic field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-E_n\/(mom*cos(theta))"
+  },
+  {
+    "name":"III.10.19_1_1",
+    "symbols":[
+      "Bx",
+      "E_n",
+      "mom",
+      "By",
+      "Bz"
+    ],
+    "symbol_descs":[
+      "the x-component of the magnetic field",
+      "the energy of a particle in a magnetic field",
+      "the magnetic moment of the particle",
+      "the y-component of the magnetic field",
+      "the z-component of the magnetic field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(-By**2 - Bz**2 + E_n**2\/mom**2)"
+  },
+  {
+    "name":"II.36.38_5_0",
+    "symbols":[
+      "epsilon",
+      "f",
+      "mom",
+      "H",
+      "kb",
+      "T",
+      "alpha",
+      "c",
+      "M"
+    ],
+    "symbol_descs":[
+      "the electric permittivity of a medium",
+      "the resultant value of the function",
+      "the momentum of an object or particle",
+      "the magnetic field strength",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the polarizability of a medium or molecule",
+      "the speed of light in vacuum",
+      "the magnetization of a material"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"M*alpha*mom\/(c**2*(H*mom - T*f*kb))"
+  },
+  {
+    "name":"I.12.4_2_0",
+    "symbols":[
+      "r",
+      "Ef",
+      "q1",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the distance from the charge to the point where the electric field is being measured",
+      "the electric field at a given point",
+      "the charge of the object generating the electric field",
+      "the electric constant (permittivity of free space)"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(q1\/(Ef*epsilon))\/(2*sqrt(pi))"
+  },
+  {
+    "name":"I.24.6_2_1",
+    "symbols":[
+      "omega_0",
+      "E_n",
+      "m",
+      "omega",
+      "x"
+    ],
+    "symbol_descs":[
+      "the natural angular frequency",
+      "the quantum mechanical energy of the nth state",
+      "the mass of the object",
+      "the angular frequency of the perturbation",
+      "the displacement from the equilibrium position"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(4*E_n\/m - omega**2*x**2)\/x"
+  },
+  {
+    "name":"I.43.43_3_0",
+    "symbols":[
+      "v",
+      "kappa",
+      "gamma",
+      "kb",
+      "A"
+    ],
+    "symbol_descs":[
+      "the velocity",
+      "the isentropic expansion factor",
+      "the adiabatic index",
+      "Boltzmann's constant",
+      "a constant area"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"A*kappa*(gamma - 1)\/kb"
+  },
+  {
+    "name":"III.15.12_0_0",
+    "symbols":[
+      "U",
+      "E_n",
+      "k",
+      "d"
+    ],
+    "symbol_descs":[
+      "the characteristic potential energy",
+      "the n-th energy level",
+      "the wave number",
+      "the distance between potential energy wells"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-E_n\/(2*cos(d*k) - 2)"
+  },
+  {
+    "name":"II.37.1_2_0",
+    "symbols":[
+      "chi",
+      "E_n",
+      "mom",
+      "B"
+    ],
+    "symbol_descs":[
+      "the magnetic susceptibility",
+      "the nth energy level",
+      "the magnetic moment",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-1 + E_n\/(B*mom)"
+  },
+  {
+    "name":"II.34.29a_2_0",
+    "symbols":[
+      "m",
+      "mom",
+      "q",
+      "h"
+    ],
+    "symbol_descs":[
+      "the mass of a particle",
+      "the momentum of a particle",
+      "the charge of a particle",
+      "the Planck constant"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"h*q\/(4*pi*mom)"
+  },
+  {
+    "name":"II.21.32_2_0",
+    "symbols":[
+      "r",
+      "Volt",
+      "q",
+      "epsilon",
+      "v",
+      "c"
+    ],
+    "symbol_descs":[
+      "the distance from the charge",
+      "the electric potential",
+      "the electric charge",
+      "the electric constant (permittivity of free space)",
+      "the velocity of the charge",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c*q\/(4*pi*Volt*epsilon*(c - v))"
+  },
+  {
+    "name":"II.24.17_2_1",
+    "symbols":[
+      "d",
+      "k",
+      "omega",
+      "c"
+    ],
+    "symbol_descs":[
+      "the diameter or thickness of the waveguide or medium",
+      "the wave number",
+      "the angular frequency",
+      "the speed of the wave"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"pi*c*sqrt(-1\/((c*k - omega)*(c*k + omega)))"
+  },
+  {
+    "name":"I.32.17_4_3",
+    "symbols":[
+      "omega",
+      "Pwr",
+      "epsilon",
+      "c",
+      "Ef",
+      "r",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the frequency of the external electric field",
+      "the power of the scattered radiation",
+      "the electric constant (permittivity of free space)",
+      "the speed of light",
+      "the strength of the external electric field",
+      "the radius of the scattering object or atom",
+      "the natural frequency of the oscillator or resonant frequency"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(2*sqrt(3)*sqrt(pi)*Ef*omega_0**2*r*sqrt(Pwr*c*epsilon)\/(4*pi*Ef**2*c*epsilon*r**2 - 3*Pwr) - 3*Pwr*omega_0**2\/(4*pi*Ef**2*c*epsilon*r**2 - 3*Pwr))"
+  },
+  {
+    "name":"II.34.2_1_0",
+    "symbols":[
+      "v",
+      "mom",
+      "q",
+      "r"
+    ],
+    "symbol_descs":[
+      "the velocity of an object",
+      "the momentum of an object",
+      "a factor or quantity, possibly a charge or a proportionality constant, though more context is needed for precise definition",
+      "possibly the radius of a circular path or a distance, more context is needed for precise definition"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*mom\/(q*r)"
+  },
+  {
+    "name":"I.32.17_2_0",
+    "symbols":[
+      "Ef",
+      "Pwr",
+      "epsilon",
+      "c",
+      "r",
+      "omega",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the strength of the external electric field",
+      "the power of the scattered radiation",
+      "the electric constant (permittivity of free space)",
+      "the speed of light",
+      "the radius of the scattering object or atom",
+      "the frequency of the external electric field",
+      "the natural frequency of the oscillator or resonant frequency"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(3)*sqrt(Pwr\/(c*epsilon))*(-omega**2 + omega_0**2)\/(2*sqrt(pi)*omega**2*r)"
+  },
+  {
+    "name":"I.11.19_2_0",
+    "symbols":[
+      "x3",
+      "A",
+      "x1",
+      "x2",
+      "y1",
+      "y2",
+      "y3"
+    ],
+    "symbol_descs":[
+      "the third coefficient",
+      "the resulting sum of products",
+      "the first coefficient",
+      "the second coefficient",
+      "the first variable or value",
+      "the second variable or value",
+      "the third variable or value"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(-A + x1*y1 - x2*y2)\/y3"
+  },
+  {
+    "name":"I.37.4_1_1",
+    "symbols":[
+      "I2",
+      "Int",
+      "I1",
+      "delta"
+    ],
+    "symbol_descs":[
+      "the intensity of the second wave source",
+      "the resultant intensity of two wave sources",
+      "the intensity of the first wave source",
+      "the phase difference between the two wave sources"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*I1*cos(delta)**2 + I1 - Int + 2*sqrt(I1*(I1*cos(delta)**2 + I1 - Int))*cos(delta)"
+  },
+  {
+    "name":"III.10.19_3_1",
+    "symbols":[
+      "Bz",
+      "E_n",
+      "mom",
+      "Bx",
+      "By"
+    ],
+    "symbol_descs":[
+      "the z-component of the magnetic field",
+      "the energy of a particle in a magnetic field",
+      "the magnetic moment of the particle",
+      "the x-component of the magnetic field",
+      "the y-component of the magnetic field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(-Bx**2 - By**2 + E_n**2\/mom**2)"
+  },
+  {
+    "name":"II.13.34_1_0",
+    "symbols":[
+      "v",
+      "j",
+      "rho_c_0",
+      "c"
+    ],
+    "symbol_descs":[
+      "the object's velocity",
+      "the current density of a charged object",
+      "the object's rest charge density",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-c*j*sqrt(1\/(c**2*rho_c_0**2 + j**2))"
+  },
+  {
+    "name":"II.11.27_0_0",
+    "symbols":[
+      "n",
+      "Pol",
+      "alpha",
+      "epsilon",
+      "Ef"
+    ],
+    "symbol_descs":[
+      "the number density of polarizable units",
+      "the polarization of a material",
+      "the polarizability of a unit",
+      "the permittivity of free space or a constant",
+      "the external electric field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"3*Pol\/(alpha*(3*Ef*epsilon + Pol))"
+  },
+  {
+    "name":"I.29.16_0_0",
+    "symbols":[
+      "x1",
+      "x",
+      "x2",
+      "theta1",
+      "theta2"
+    ],
+    "symbol_descs":[
+      "the magnitude of the first vector",
+      "the distance between two points",
+      "the magnitude of the second vector",
+      "the angle of the first vector",
+      "the angle of the second vector"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"x2*cos(theta1 - theta2) - sqrt(x**2 + x2**2*cos(theta1 - theta2)**2 - x2**2)"
+  },
+  {
+    "name":"II.24.17_1_1",
+    "symbols":[
+      "c",
+      "k",
+      "omega",
+      "d"
+    ],
+    "symbol_descs":[
+      "the speed of the wave",
+      "the wave number",
+      "the angular frequency",
+      "the diameter or thickness of the waveguide or medium"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"d*omega*sqrt(1\/(d**2*k**2 + pi**2))"
+  },
+  {
+    "name":"II.6.15a_3_1",
+    "symbols":[
+      "x",
+      "Ef",
+      "epsilon",
+      "p_d",
+      "r",
+      "y",
+      "z"
+    ],
+    "symbol_descs":[
+      "the x-coordinate of the point where the field is being measured",
+      "the electric field strength at a point",
+      "the electric constant (permittivity of free space)",
+      "the electric dipole moment",
+      "the distance from the dipole to the point where the field is being measured",
+      "the y-coordinate of the point where the field is being measured",
+      "the z-coordinate of the point where the field is being measured"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(16*pi**2*Ef**2*epsilon**2*r**10\/(p_d**2*z**2) - 9*y**2)\/3"
+  },
+  {
+    "name":"III.12.43_0_0",
+    "symbols":[
+      "n",
+      "L",
+      "h"
+    ],
+    "symbol_descs":[
+      "a quantum number representing the energy level",
+      "the angular momentum of an object",
+      "the Planck constant"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V"
+    ],
+    "expression":"2*pi*L\/h"
+  },
+  {
+    "name":"II.11.28_0_0",
+    "symbols":[
+      "n",
+      "theta",
+      "alpha"
+    ],
+    "symbol_descs":[
+      "the number of terms or iterations",
+      "the resulting angle or parameter",
+      "the angle of incidence or a constant factor"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V"
+    ],
+    "expression":"3*(theta - 1)\/(alpha*(theta - 4))"
+  },
+  {
+    "name":"II.11.3_4_1",
+    "symbols":[
+      "omega",
+      "x",
+      "q",
+      "Ef",
+      "m",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the angular frequency of the external force",
+      "the displacement of an object from its equilibrium position",
+      "the electric charge of the object",
+      "the external electric field strength",
+      "the mass of the object",
+      "the natural angular frequency of the oscillation"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(-Ef*q\/(m*x) + omega_0**2)"
+  },
+  {
+    "name":"I.12.2_3_0",
+    "symbols":[
+      "r",
+      "F",
+      "q1",
+      "q2",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the distance between the centers of the two charges",
+      "the electrostatic force between two charges",
+      "the first electric charge",
+      "the second electric charge",
+      "the electric constant (permittivity of free space)"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(q1*q2\/(F*epsilon))\/(2*sqrt(pi))"
+  },
+  {
+    "name":"II.6.15a_5_0",
+    "symbols":[
+      "z",
+      "Ef",
+      "epsilon",
+      "p_d",
+      "r",
+      "x",
+      "y"
+    ],
+    "symbol_descs":[
+      "the z-coordinate of the point where the field is being measured",
+      "the electric field strength at a point",
+      "the electric constant (permittivity of free space)",
+      "the electric dipole moment",
+      "the distance from the dipole to the point where the field is being measured",
+      "the x-coordinate of the point where the field is being measured",
+      "the y-coordinate of the point where the field is being measured"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"4*pi*Ef*epsilon*r**5\/(3*p_d*sqrt(x**2 + y**2))"
+  },
+  {
+    "name":"III.15.27_1_0",
+    "symbols":[
+      "n",
+      "k",
+      "alpha",
+      "d"
+    ],
+    "symbol_descs":[
+      "the number of turns or a dimensionless quantity",
+      "the spring constant or a proportionality constant",
+      "a material-dependent constant or a dimensionless parameter",
+      "the diameter or a characteristic length"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*pi*alpha\/(d*k)"
+  },
+  {
+    "name":"I.15.1_1_0",
+    "symbols":[
+      "v",
+      "p",
+      "m_0",
+      "c"
+    ],
+    "symbol_descs":[
+      "the object's velocity",
+      "the relativistic momentum of an object",
+      "the object's rest mass",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-c*p*sqrt(1\/(c**2*m_0**2 + p**2))"
+  },
+  {
+    "name":"III.13.18_1_1",
+    "symbols":[
+      "d",
+      "v",
+      "E_n",
+      "k",
+      "h"
+    ],
+    "symbol_descs":[
+      "the distance between particles or the diameter of a nanoparticle",
+      "the velocity of a particle or wave",
+      "the nth energy level of a quantum system",
+      "Boltzmann's constant, relating energy to temperature",
+      "the Planck constant, relating energy to frequency"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(h*v\/(E_n*k))\/(2*sqrt(pi))"
+  },
+  {
+    "name":"II.35.18_3_1",
+    "symbols":[
+      "mom",
+      "n",
+      "n_0",
+      "kb",
+      "T",
+      "B"
+    ],
+    "symbol_descs":[
+      "the magnetic moment of a particle",
+      "the number of particles in a given state",
+      "the number of particles at equilibrium",
+      "the Boltzmann constant",
+      "the temperature of the system",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*log((n_0 + sqrt(-4*n**2 + n_0**2))\/(2*n))\/B"
+  },
+  {
+    "name":"II.36.38_3_0",
+    "symbols":[
+      "T",
+      "f",
+      "mom",
+      "H",
+      "kb",
+      "alpha",
+      "epsilon",
+      "c",
+      "M"
+    ],
+    "symbol_descs":[
+      "the temperature in Kelvin",
+      "the resultant value of the function",
+      "the momentum of an object or particle",
+      "the magnetic field strength",
+      "the Boltzmann constant",
+      "the polarizability of a medium or molecule",
+      "the electric permittivity of a medium",
+      "the speed of light in vacuum",
+      "the magnetization of a material"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"mom*(H*c**2*epsilon - M*alpha)\/(c**2*epsilon*f*kb)"
+  },
+  {
+    "name":"I.13.12_3_0",
+    "symbols":[
+      "r2",
+      "U",
+      "m1",
+      "m2",
+      "r1",
+      "G"
+    ],
+    "symbol_descs":[
+      "the final distance between the two objects",
+      "the potential energy of two objects",
+      "the mass of the first object",
+      "the mass of the second object",
+      "the initial distance between the two objects",
+      "the gravitational constant"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"G*m1*m2*r1\/(G*m1*m2 + U*r1)"
+  },
+  {
+    "name":"I.32.17_5_3",
+    "symbols":[
+      "omega_0",
+      "Pwr",
+      "epsilon",
+      "c",
+      "Ef",
+      "r",
+      "omega"
+    ],
+    "symbol_descs":[
+      "the natural frequency of the oscillator or resonant frequency",
+      "the power of the scattered radiation",
+      "the electric constant (permittivity of free space)",
+      "the speed of light",
+      "the strength of the external electric field",
+      "the radius of the scattering object or atom",
+      "the frequency of the external electric field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(3)*sqrt(2*sqrt(3)*sqrt(pi)*Ef*omega**2*r*sqrt(Pwr*c*epsilon)\/Pwr + 3*omega**2)\/3"
+  },
+  {
+    "name":"I.29.16_1_0",
+    "symbols":[
+      "x2",
+      "x",
+      "x1",
+      "theta1",
+      "theta2"
+    ],
+    "symbol_descs":[
+      "the magnitude of the second vector",
+      "the distance between two points",
+      "the magnitude of the first vector",
+      "the angle of the first vector",
+      "the angle of the second vector"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"x1*cos(theta1 - theta2) - sqrt(x**2 + x1**2*cos(theta1 - theta2)**2 - x1**2)"
+  },
+  {
+    "name":"III.17.37_1_0",
+    "symbols":[
+      "alpha",
+      "f",
+      "beta",
+      "theta"
+    ],
+    "symbol_descs":[
+      "a coefficient modifying the cosine term",
+      "the resultant value of the function",
+      "a scaling factor",
+      "the angle in radians"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(-beta + f)\/(beta*cos(theta))"
+  },
+  {
+    "name":"II.6.15a_4_1",
+    "symbols":[
+      "y",
+      "Ef",
+      "epsilon",
+      "p_d",
+      "r",
+      "x",
+      "z"
+    ],
+    "symbol_descs":[
+      "the y-coordinate of the point where the field is being measured",
+      "the electric field strength at a point",
+      "the electric constant (permittivity of free space)",
+      "the electric dipole moment",
+      "the distance from the dipole to the point where the field is being measured",
+      "the x-coordinate of the point where the field is being measured",
+      "the z-coordinate of the point where the field is being measured"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(16*pi**2*Ef**2*epsilon**2*r**10\/(p_d**2*z**2) - 9*x**2)\/3"
+  },
+  {
+    "name":"I.11.19_4_0",
+    "symbols":[
+      "y2",
+      "A",
+      "x1",
+      "x2",
+      "x3",
+      "y1",
+      "y3"
+    ],
+    "symbol_descs":[
+      "the second variable or value",
+      "the resulting sum of products",
+      "the first coefficient",
+      "the second coefficient",
+      "the third coefficient",
+      "the first variable or value",
+      "the third variable or value"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(-A + x1*y1 - x3*y3)\/x2"
+  },
+  {
+    "name":"II.35.18_2_1",
+    "symbols":[
+      "T",
+      "n",
+      "n_0",
+      "kb",
+      "mom",
+      "B"
+    ],
+    "symbol_descs":[
+      "the temperature of the system",
+      "the number of particles in a given state",
+      "the number of particles at equilibrium",
+      "the Boltzmann constant",
+      "the magnetic moment of a particle",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"B*mom\/(kb*log((n_0 + sqrt(-4*n**2 + n_0**2))\/(2*n)))"
+  },
+  {
+    "name":"II.11.20_1_1",
+    "symbols":[
+      "p_d",
+      "Pol",
+      "n_rho",
+      "Ef",
+      "kb",
+      "T"
+    ],
+    "symbol_descs":[
+      "the dipole moment of a molecule",
+      "the polarization of a medium",
+      "the density of molecules or dipoles",
+      "the external electric field strength",
+      "the Boltzmann constant",
+      "the temperature in Kelvin"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(3)*sqrt(Pol*T*kb\/(Ef*n_rho))"
+  },
+  {
+    "name":"II.11.17_5_0",
+    "symbols":[
+      "Ef",
+      "n",
+      "n_0",
+      "kb",
+      "T",
+      "theta",
+      "p_d"
+    ],
+    "symbol_descs":[
+      "the electric field strength",
+      "the carrier density",
+      "the equilibrium carrier density",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the angle between the electric field and the carrier movement direction",
+      "the dipole moment of the carrier"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*(n - n_0)\/(n_0*p_d*cos(theta))"
+  },
+  {
+    "name":"I.44.4_4_0",
+    "symbols":[
+      "V2",
+      "E_n",
+      "n",
+      "kb",
+      "T",
+      "V1"
+    ],
+    "symbol_descs":[
+      "the final volume of the gas",
+      "the energy change of an ideal gas",
+      "the number of moles of the gas",
+      "the Boltzmann constant",
+      "the temperature of the gas in Kelvin",
+      "the initial volume of the gas"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"V1*exp(E_n\/(T*kb*n))"
+  },
+  {
+    "name":"II.34.29b_3_0",
+    "symbols":[
+      "mom",
+      "E_n",
+      "g_",
+      "h",
+      "Jz",
+      "B"
+    ],
+    "symbol_descs":[
+      "the magnetic moment of the particle or atom",
+      "the energy of the nth state",
+      "the g-factor of the particle or atom",
+      "the Planck constant",
+      "the z-component of the total angular momentum",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n*h\/(2*pi*B*Jz*g_)"
+  },
+  {
+    "name":"II.27.16_2_0",
+    "symbols":[
+      "Ef",
+      "flux",
+      "epsilon",
+      "c"
+    ],
+    "symbol_descs":[
+      "the magnitude of the electric field",
+      "the energy flux density",
+      "the electric constant or permittivity of free space",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(flux\/(c*epsilon))"
+  },
+  {
+    "name":"II.34.29b_0_0",
+    "symbols":[
+      "g_",
+      "E_n",
+      "h",
+      "Jz",
+      "mom",
+      "B"
+    ],
+    "symbol_descs":[
+      "the g-factor of the particle or atom",
+      "the energy of the nth state",
+      "the Planck constant",
+      "the z-component of the total angular momentum",
+      "the magnetic moment of the particle or atom",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n*h\/(2*pi*B*Jz*mom)"
+  },
+  {
+    "name":"I.11.19_0_0",
+    "symbols":[
+      "x1",
+      "A",
+      "x2",
+      "x3",
+      "y1",
+      "y2",
+      "y3"
+    ],
+    "symbol_descs":[
+      "the first coefficient",
+      "the resulting sum of products",
+      "the second coefficient",
+      "the third coefficient",
+      "the first variable or value",
+      "the second variable or value",
+      "the third variable or value"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(A + x2*y2 + x3*y3)\/y1"
+  },
+  {
+    "name":"III.10.19_2_1",
+    "symbols":[
+      "By",
+      "E_n",
+      "mom",
+      "Bx",
+      "Bz"
+    ],
+    "symbol_descs":[
+      "the y-component of the magnetic field",
+      "the energy of a particle in a magnetic field",
+      "the magnetic moment of the particle",
+      "the x-component of the magnetic field",
+      "the z-component of the magnetic field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(-Bx**2 - Bz**2 + E_n**2\/mom**2)"
+  },
+  {
+    "name":"II.8.31_1_0",
+    "symbols":[
+      "Ef",
+      "E_den",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the electric field strength",
+      "the energy density",
+      "the electric permittivity"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(2)*sqrt(E_den\/epsilon)"
+  },
+  {
+    "name":"II.11.17_4_0",
+    "symbols":[
+      "p_d",
+      "n",
+      "n_0",
+      "kb",
+      "T",
+      "theta",
+      "Ef"
+    ],
+    "symbol_descs":[
+      "the dipole moment of the carrier",
+      "the carrier density",
+      "the equilibrium carrier density",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the angle between the electric field and the carrier movement direction",
+      "the electric field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*(n - n_0)\/(Ef*n_0*cos(theta))"
+  },
+  {
+    "name":"II.36.38_4_0",
+    "symbols":[
+      "alpha",
+      "f",
+      "mom",
+      "H",
+      "kb",
+      "T",
+      "epsilon",
+      "c",
+      "M"
+    ],
+    "symbol_descs":[
+      "the polarizability of a medium or molecule",
+      "the resultant value of the function",
+      "the momentum of an object or particle",
+      "the magnetic field strength",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the electric permittivity of a medium",
+      "the speed of light in vacuum",
+      "the magnetization of a material"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c**2*epsilon*(H*mom - T*f*kb)\/(M*mom)"
+  },
+  {
+    "name":"II.6.15b_3_0",
+    "symbols":[
+      "r",
+      "Ef",
+      "epsilon",
+      "p_d",
+      "theta"
+    ],
+    "symbol_descs":[
+      "the distance from the dipole to the point where the electric field is being measured",
+      "the electric field",
+      "the electric constant or permittivity of the medium",
+      "the dipole moment",
+      "the angle between the dipole axis and the position vector"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"6**(1\/3)*(p_d*sin(theta)*cos(theta)\/(Ef*epsilon))**(1\/3)\/(2*pi**(1\/3))"
+  },
+  {
+    "name":"II.34.29b_4_0",
+    "symbols":[
+      "B",
+      "E_n",
+      "g_",
+      "h",
+      "Jz",
+      "mom"
+    ],
+    "symbol_descs":[
+      "the magnetic field strength",
+      "the energy of the nth state",
+      "the g-factor of the particle or atom",
+      "the Planck constant",
+      "the z-component of the total angular momentum",
+      "the magnetic moment of the particle or atom"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n*h\/(2*pi*Jz*g_*mom)"
+  },
+  {
+    "name":"III.21.20_2_0",
+    "symbols":[
+      "A_vec",
+      "j",
+      "rho_c_0",
+      "q",
+      "m"
+    ],
+    "symbol_descs":[
+      "the vector potential",
+      "the current density",
+      "the charge carrier density",
+      "the elementary charge",
+      "the mass of a charge carrier"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-j*m\/(q*rho_c_0)"
+  },
+  {
+    "name":"II.35.18_4_1",
+    "symbols":[
+      "B",
+      "n",
+      "n_0",
+      "kb",
+      "T",
+      "mom"
+    ],
+    "symbol_descs":[
+      "the magnetic field strength",
+      "the number of particles in a given state",
+      "the number of particles at equilibrium",
+      "the Boltzmann constant",
+      "the temperature of the system",
+      "the magnetic moment of a particle"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*log((n_0 + sqrt(-4*n**2 + n_0**2))\/(2*n))\/mom"
+  },
+  {
+    "name":"I.30.3_0_0",
+    "symbols":[
+      "Int_0",
+      "Int",
+      "theta",
+      "n"
+    ],
+    "symbol_descs":[
+      "the initial intensity",
+      "the resulting intensity",
+      "the angle of diffraction",
+      "the number of slits"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*Int*sin(theta\/2)**2\/(1 - cos(n*theta))"
+  },
+  {
+    "name":"I.10.7_1_0",
+    "symbols":[
+      "v",
+      "m",
+      "m_0",
+      "c"
+    ],
+    "symbol_descs":[
+      "the object's velocity",
+      "the relativistic mass of an object",
+      "the object's rest mass",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-c*sqrt(1 - m_0**2\/m**2)"
+  },
+  {
+    "name":"II.11.27_1_0",
+    "symbols":[
+      "alpha",
+      "Pol",
+      "n",
+      "epsilon",
+      "Ef"
+    ],
+    "symbol_descs":[
+      "the polarizability of a unit",
+      "the polarization of a material",
+      "the number density of polarizable units",
+      "the permittivity of free space or a constant",
+      "the external electric field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"3*Pol\/(n*(3*Ef*epsilon + Pol))"
+  },
+  {
+    "name":"I.44.4_2_0",
+    "symbols":[
+      "T",
+      "E_n",
+      "n",
+      "kb",
+      "V1",
+      "V2"
+    ],
+    "symbol_descs":[
+      "the temperature of the gas in Kelvin",
+      "the energy change of an ideal gas",
+      "the number of moles of the gas",
+      "the Boltzmann constant",
+      "the initial volume of the gas",
+      "the final volume of the gas"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n\/(kb*n*log(V2\/V1))"
+  },
+  {
+    "name":"I.34.1_2_0",
+    "symbols":[
+      "omega_0",
+      "omega",
+      "c",
+      "v"
+    ],
+    "symbol_descs":[
+      "the object's proper angular frequency (at rest)",
+      "the relativistic angular frequency of an object",
+      "the speed of light",
+      "the object's velocity"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"omega*(c - v)\/c"
+  },
+  {
+    "name":"I.37.4_0_1",
+    "symbols":[
+      "I1",
+      "Int",
+      "I2",
+      "delta"
+    ],
+    "symbol_descs":[
+      "the intensity of the first wave source",
+      "the resultant intensity of two wave sources",
+      "the intensity of the second wave source",
+      "the phase difference between the two wave sources"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*I2*cos(delta)**2 + I2 + Int + 2*sqrt(I2*(I2*cos(delta)**2 + I2 + Int))*cos(delta)"
+  },
+  {
+    "name":"I.11.19_3_0",
+    "symbols":[
+      "y1",
+      "A",
+      "x1",
+      "x2",
+      "x3",
+      "y2",
+      "y3"
+    ],
+    "symbol_descs":[
+      "the first variable or value",
+      "the resulting sum of products",
+      "the first coefficient",
+      "the second coefficient",
+      "the third coefficient",
+      "the second variable or value",
+      "the third variable or value"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(A + x2*y2 + x3*y3)\/x1"
+  },
+  {
+    "name":"II.11.27_3_0",
+    "symbols":[
+      "Ef",
+      "Pol",
+      "n",
+      "alpha",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the external electric field",
+      "the polarization of a material",
+      "the number density of polarizable units",
+      "the polarizability of a unit",
+      "the permittivity of free space or a constant"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-Pol\/(3*epsilon) + Pol\/(alpha*epsilon*n)"
+  },
+  {
+    "name":"III.21.20_3_0",
+    "symbols":[
+      "m",
+      "j",
+      "rho_c_0",
+      "q",
+      "A_vec"
+    ],
+    "symbol_descs":[
+      "the mass of a charge carrier",
+      "the current density",
+      "the charge carrier density",
+      "the elementary charge",
+      "the vector potential"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-A_vec*q*rho_c_0\/j"
+  },
+  {
+    "name":"III.13.18_0_0",
+    "symbols":[
+      "E_n",
+      "v",
+      "d",
+      "k",
+      "h"
+    ],
+    "symbol_descs":[
+      "the nth energy level of a quantum system",
+      "the velocity of a particle or wave",
+      "the distance between particles or the diameter of a nanoparticle",
+      "Boltzmann's constant, relating energy to temperature",
+      "the Planck constant, relating energy to frequency"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"h*v\/(4*pi*d**2*k)"
+  },
+  {
+    "name":"I.27.6_2_0",
+    "symbols":[
+      "n",
+      "foc",
+      "d1",
+      "d2"
+    ],
+    "symbol_descs":[
+      "the refractive index of the medium between the two optical components",
+      "the focal length of a combination of two optical components",
+      "the distance from the first optical component to the object",
+      "the distance from the second optical component to the image"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"d2\/foc - d2\/d1"
+  },
+  {
+    "name":"III.4.33_3_0",
+    "symbols":[
+      "T",
+      "E_n",
+      "h",
+      "omega",
+      "kb"
+    ],
+    "symbol_descs":[
+      "the temperature of the system",
+      "the energy of the nth mode of a quantum harmonic oscillator",
+      "the Planck constant",
+      "the angular frequency of the oscillator",
+      "the Boltzmann constant"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"h*omega\/(2*pi*kb*log(1 + h*omega\/(2*pi*E_n)))"
+  },
+  {
+    "name":"I.11.19_1_0",
+    "symbols":[
+      "x2",
+      "A",
+      "x1",
+      "x3",
+      "y1",
+      "y2",
+      "y3"
+    ],
+    "symbol_descs":[
+      "the second coefficient",
+      "the resulting sum of products",
+      "the first coefficient",
+      "the third coefficient",
+      "the first variable or value",
+      "the second variable or value",
+      "the third variable or value"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(-A + x1*y1 - x3*y3)\/y2"
+  },
+  {
+    "name":"II.37.1_1_0",
+    "symbols":[
+      "B",
+      "E_n",
+      "mom",
+      "chi"
+    ],
+    "symbol_descs":[
+      "the magnetic field strength",
+      "the nth energy level",
+      "the magnetic moment",
+      "the magnetic susceptibility"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n\/(mom*(chi + 1))"
+  },
+  {
+    "name":"II.36.38_0_0",
+    "symbols":[
+      "mom",
+      "f",
+      "H",
+      "kb",
+      "T",
+      "alpha",
+      "epsilon",
+      "c",
+      "M"
+    ],
+    "symbol_descs":[
+      "the momentum of an object or particle",
+      "the resultant value of the function",
+      "the magnetic field strength",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the polarizability of a medium or molecule",
+      "the electric permittivity of a medium",
+      "the speed of light in vacuum",
+      "the magnetization of a material"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*c**2*epsilon*f*kb\/(H*c**2*epsilon - M*alpha)"
+  },
+  {
+    "name":"III.9.52_1_0",
+    "symbols":[
+      "Ef",
+      "prob",
+      "p_d",
+      "t",
+      "h",
+      "omega",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the amplitude of the external electric field",
+      "the transition probability of an atomic system",
+      "the dipole moment of the transition",
+      "the interaction time between the atomic system and the external field",
+      "the Planck constant",
+      "the frequency of the external field",
+      "the resonant frequency of the atomic transition"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"h*prob*t*(omega - omega_0)**2\/(4*pi*p_d*(1 - cos(t*(omega - omega_0))))"
+  },
+  {
+    "name":"II.11.3_2_0",
+    "symbols":[
+      "m",
+      "x",
+      "q",
+      "Ef",
+      "omega_0",
+      "omega"
+    ],
+    "symbol_descs":[
+      "the mass of the object",
+      "the displacement of an object from its equilibrium position",
+      "the electric charge of the object",
+      "the external electric field strength",
+      "the natural angular frequency of the oscillation",
+      "the angular frequency of the external force"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-Ef*q\/(x*(omega**2 - omega_0**2))"
+  },
+  {
+    "name":"I.34.14_2_0",
+    "symbols":[
+      "omega_0",
+      "omega",
+      "c",
+      "v"
+    ],
+    "symbol_descs":[
+      "the object's rest angular frequency",
+      "the relativistic angular frequency",
+      "the speed of light",
+      "the object's velocity"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c*omega*sqrt(1 - v**2\/c**2)\/(c + v)"
+  },
+  {
+    "name":"II.21.32_3_0",
+    "symbols":[
+      "v",
+      "Volt",
+      "q",
+      "epsilon",
+      "r",
+      "c"
+    ],
+    "symbol_descs":[
+      "the velocity of the charge",
+      "the electric potential",
+      "the electric charge",
+      "the electric constant (permittivity of free space)",
+      "the distance from the charge",
+      "the speed of light"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c - c*q\/(4*pi*Volt*epsilon*r)"
+  },
+  {
+    "name":"I.11.19_5_0",
+    "symbols":[
+      "y3",
+      "A",
+      "x1",
+      "x2",
+      "x3",
+      "y1",
+      "y2"
+    ],
+    "symbol_descs":[
+      "the third variable or value",
+      "the resulting sum of products",
+      "the first coefficient",
+      "the second coefficient",
+      "the third coefficient",
+      "the first variable or value",
+      "the second variable or value"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(-A + x1*y1 - x2*y2)\/x3"
+  },
+  {
+    "name":"III.15.27_2_0",
+    "symbols":[
+      "d",
+      "k",
+      "alpha",
+      "n"
+    ],
+    "symbol_descs":[
+      "the diameter or a characteristic length",
+      "the spring constant or a proportionality constant",
+      "a material-dependent constant or a dimensionless parameter",
+      "the number of turns or a dimensionless quantity"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"2*pi*alpha\/(k*n)"
+  },
+  {
+    "name":"II.34.29b_2_0",
+    "symbols":[
+      "Jz",
+      "E_n",
+      "g_",
+      "h",
+      "mom",
+      "B"
+    ],
+    "symbol_descs":[
+      "the z-component of the total angular momentum",
+      "the energy of the nth state",
+      "the g-factor of the particle or atom",
+      "the Planck constant",
+      "the magnetic moment of the particle or atom",
+      "the magnetic field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"E_n*h\/(2*pi*B*g_*mom)"
+  },
+  {
+    "name":"II.3.24_1_0",
+    "symbols":[
+      "r",
+      "flux",
+      "Pwr"
+    ],
+    "symbol_descs":[
+      "the distance from the object",
+      "the radiant flux of an object",
+      "the power emitted by the object"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(Pwr\/flux)\/(2*sqrt(pi))"
+  },
+  {
+    "name":"II.11.17_2_0",
+    "symbols":[
+      "T",
+      "n",
+      "n_0",
+      "kb",
+      "theta",
+      "p_d",
+      "Ef"
+    ],
+    "symbol_descs":[
+      "the temperature in Kelvin",
+      "the carrier density",
+      "the equilibrium carrier density",
+      "the Boltzmann constant",
+      "the angle between the electric field and the carrier movement direction",
+      "the dipole moment of the carrier",
+      "the electric field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"Ef*n_0*p_d*cos(theta)\/(kb*(n - n_0))"
+  },
+  {
+    "name":"I.50.26_3_0",
+    "symbols":[
+      "alpha",
+      "x",
+      "x1",
+      "omega",
+      "t"
+    ],
+    "symbol_descs":[
+      "the non-linearity coefficient",
+      "the resulting displacement",
+      "the initial amplitude",
+      "the angular frequency",
+      "the time"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"(x\/cos(omega*t) - x1)\/(x1*cos(omega*t))"
+  },
+  {
+    "name":"I.32.17_3_0",
+    "symbols":[
+      "r",
+      "Pwr",
+      "epsilon",
+      "c",
+      "Ef",
+      "omega",
+      "omega_0"
+    ],
+    "symbol_descs":[
+      "the radius of the scattering object or atom",
+      "the power of the scattered radiation",
+      "the electric constant (permittivity of free space)",
+      "the speed of light",
+      "the strength of the external electric field",
+      "the frequency of the external electric field",
+      "the natural frequency of the oscillator or resonant frequency"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"sqrt(3)*sqrt(Pwr\/(c*epsilon))*(-omega**2 + omega_0**2)\/(2*sqrt(pi)*Ef*omega**2)"
+  },
+  {
+    "name":"III.19.51_3_0",
+    "symbols":[
+      "n",
+      "E_n",
+      "m",
+      "q",
+      "h",
+      "epsilon"
+    ],
+    "symbol_descs":[
+      "the principal quantum number",
+      "the energy of the nth energy level",
+      "the mass of the electron",
+      "the elementary charge",
+      "the Planck constant",
+      "the electric constant (permittivity of free space)"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-sqrt(2)*q**2*sqrt(-m\/E_n)\/(4*epsilon*h)"
+  },
+  {
+    "name":"I.40.1_4_0",
+    "symbols":[
+      "g",
+      "n",
+      "n_0",
+      "m",
+      "x",
+      "T",
+      "kb"
+    ],
+    "symbol_descs":[
+      "the acceleration due to gravity",
+      "the density of particles at a given point",
+      "the density of particles at the reference point",
+      "the mass of a particle",
+      "the height or distance from the reference point",
+      "the temperature in Kelvin",
+      "the Boltzmann constant"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*log(n_0\/n)\/(m*x)"
+  },
+  {
+    "name":"I.15.3t_0_0",
+    "symbols":[
+      "x",
+      "t1",
+      "c",
+      "u",
+      "t"
+    ],
+    "symbol_descs":[
+      "the position of the event in the observer's frame",
+      "the relativistic time in the observer's frame",
+      "the speed of light",
+      "the relative velocity between the observer's frame and the object's frame",
+      "the time of the event in the object's frame"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"c**2*(t - t1*sqrt((c**2 - u**2)\/c**2))\/u"
+  },
+  {
+    "name":"II.15.5_1_0",
+    "symbols":[
+      "Ef",
+      "E_n",
+      "p_d",
+      "theta"
+    ],
+    "symbol_descs":[
+      "the external electric field",
+      "the normal component of the electric field at the surface",
+      "the dipole moment per unit area",
+      "the angle between the dipole moment and the external electric field"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"-E_n\/(p_d*cos(theta))"
+  },
+  {
+    "name":"I.50.26_0_0",
+    "symbols":[
+      "x1",
+      "x",
+      "omega",
+      "t",
+      "alpha"
+    ],
+    "symbol_descs":[
+      "the initial amplitude",
+      "the resulting displacement",
+      "the angular frequency",
+      "the time",
+      "the non-linearity coefficient"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"x\/(alpha*cos(omega*t)**2 + cos(omega*t))"
+  },
+  {
+    "name":"III.17.37_0_0",
+    "symbols":[
+      "beta",
+      "f",
+      "alpha",
+      "theta"
+    ],
+    "symbol_descs":[
+      "a scaling factor",
+      "the resultant value of the function",
+      "a coefficient modifying the cosine term",
+      "the angle in radians"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"f\/(alpha*cos(theta) + 1)"
+  },
+  {
+    "name":"II.11.17_0_0",
+    "symbols":[
+      "n_0",
+      "n",
+      "kb",
+      "T",
+      "theta",
+      "p_d",
+      "Ef"
+    ],
+    "symbol_descs":[
+      "the equilibrium carrier density",
+      "the carrier density",
+      "the Boltzmann constant",
+      "the temperature in Kelvin",
+      "the angle between the electric field and the carrier movement direction",
+      "the dipole moment of the carrier",
+      "the electric field strength"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"T*kb*n\/(Ef*p_d*cos(theta) + T*kb)"
+  },
+  {
+    "name":"I.24.6_0_0",
+    "symbols":[
+      "m",
+      "E_n",
+      "omega",
+      "omega_0",
+      "x"
+    ],
+    "symbol_descs":[
+      "the mass of the object",
+      "the quantum mechanical energy of the nth state",
+      "the angular frequency of the perturbation",
+      "the natural angular frequency",
+      "the displacement from the equilibrium position"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"4*E_n\/(x**2*(omega**2 + omega_0**2))"
+  },
+  {
+    "name":"II.11.3_0_0",
+    "symbols":[
+      "q",
+      "x",
+      "Ef",
+      "m",
+      "omega_0",
+      "omega"
+    ],
+    "symbol_descs":[
+      "the electric charge of the object",
+      "the displacement of an object from its equilibrium position",
+      "the external electric field strength",
+      "the mass of the object",
+      "the natural angular frequency of the oscillation",
+      "the angular frequency of the external force"
+    ],
+    "symbol_properties":[
+      "O",
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "expression":"m*x*(-omega**2 + omega_0**2)\/Ef"
+  }
+]

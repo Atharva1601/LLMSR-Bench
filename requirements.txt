@@ -1,0 +1,9 @@
+torch==2.1.0
+transformers==4.40.0
+accelerate==0.27.2
+bitsandbytes==0.42.0
+numpy==1.26.4
+sympy==1.12
+scipy==1.11.4
+pandas==2.2.0
+matplotlib==3.8.2

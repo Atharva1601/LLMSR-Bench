@@ -1,0 +1,301 @@
+model,equation,expr,method,numeric,symbolic,nmse,acc01
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_1,1*x + -4,direct,False,False,24.0,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_1,1*x + -4,cot,False,False,74.5,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_1,1*x + -4,llmsr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_1,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_2,2*x**3 + -2*x + -4,direct,False,False,1.5400641025641026,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_2,2*x**3 + -2*x + -4,cot,False,False,1.1434294871794872,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_2,2*x**3 + -2*x + -4,llmsr,True,False,4.7934045693609767e-29,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_2,2*x**3 + -2*x + -4,lasr,False,False,0.10897435897435898,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_3,5*x**2 + -3*x + 4,direct,False,False,1.9876681614349774,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_3,5*x**2 + -3*x + 4,cot,False,False,2.130605381165919,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_3,5*x**2 + -3*x + 4,llmsr,True,False,1.0390943055935288e-29,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_3,5*x**2 + -3*x + 4,lasr,False,False,0.35986547085201787,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_4,1*x + -4,direct,False,False,24.0,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_4,1*x + -4,cot,False,False,74.5,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_4,1*x + -4,llmsr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_4,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_5,2*x + 4,direct,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_5,2*x + 4,cot,False,False,3.375,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_5,2*x + 4,llmsr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_5,2*x + 4,lasr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_6,5*x**3 + -1*x + 5,direct,False,False,2.0437898089171975,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_6,5*x**3 + -1*x + 5,cot,False,False,2.0905368516833485,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_6,5*x**3 + -1*x + 5,llmsr,True,False,4.6585143538529266e-30,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_6,5*x**3 + -1*x + 5,lasr,False,False,0.06107825295723385,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_7,5*x**2 + 2*x + -2,direct,False,False,2.571428571428571,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_7,5*x**2 + 2*x + -2,cot,False,False,2.0890318212593093,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_7,5*x**2 + 2*x + -2,llmsr,True,False,2.0140788582183042e-29,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_7,5*x**2 + 2*x + -2,lasr,False,False,0.23358158429248474,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_8,5*x + 0,direct,False,False,4.48,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_8,5*x + 0,cot,False,False,1.86,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_8,5*x + 0,llmsr,True,False,1.8932661725304283e-31,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_8,5*x + 0,lasr,False,False,0.16,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_9,4*x + 1,direct,False,False,5.15625,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_9,4*x + 1,cot,False,False,1.75,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_9,4*x + 1,llmsr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_9,4*x + 1,lasr,False,False,0.09375,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_10,2*x + 1,direct,False,False,1.125,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_10,2*x + 1,cot,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_10,2*x + 1,llmsr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_10,2*x + 1,lasr,False,False,0.25,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_11,4*x**2 + -3*x + 0,direct,False,False,1.835564053537285,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_11,4*x**2 + -3*x + 0,cot,False,False,1.2304015296367115,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_11,4*x**2 + -3*x + 0,llmsr,True,False,9.41203068561972e-31,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_11,4*x**2 + -3*x + 0,lasr,True,False,0.011472275334608031,0.6666666666666666
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_12,5*x**3 + 0*x + -5,direct,False,False,1.9026519337016574,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_12,5*x**3 + 0*x + -5,cot,False,False,1.7721546961325967,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_12,5*x**3 + 0*x + -5,llmsr,True,False,3.302581433924165e-30,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_12,5*x**3 + 0*x + -5,lasr,True,False,0.02243093922651934,0.6666666666666666
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_13,4*x**2 + 4*x + -4,direct,False,False,2.4843749999999996,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_13,4*x**2 + 4*x + -4,cot,False,False,1.9675164473684208,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_13,4*x**2 + 4*x + -4,llmsr,True,False,2.656566946447404e-31,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_13,4*x**2 + 4*x + -4,lasr,False,False,0.3059210526315789,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_14,1*x**3 + 4*x + -1,direct,False,False,2.330564784053156,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_14,1*x**3 + 4*x + -1,cot,False,False,1.7641196013289036,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_14,1*x**3 + 4*x + -1,llmsr,True,False,6.55200087392867e-33,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_14,1*x**3 + 4*x + -1,lasr,False,False,0.21760797342192692,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_15,5*x + 1,direct,False,False,5.5,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_15,5*x + 1,cot,False,False,2.52,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_15,5*x + 1,llmsr,True,False,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_15,5*x + 1,lasr,True,False,0.04,0.6666666666666666
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_16,1*x + -4,direct,False,False,24.0,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_16,1*x + -4,cot,False,False,74.5,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_16,1*x + -4,llmsr,True,True,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_16,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_17,3*x + -3,direct,False,False,0.6111111111111112,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_17,3*x + -3,cot,False,False,0.7777777777777778,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_17,3*x + -3,llmsr,True,False,0.0,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_17,3*x + -3,lasr,False,False,0.2777777777777778,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_18,4*x**3 + 0*x + 2,direct,False,False,2.157803867403315,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_18,4*x**3 + 0*x + 2,cot,False,False,1.9784185082872927,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_18,4*x**3 + 0*x + 2,llmsr,True,False,2.1713832250962615e-29,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_18,4*x**3 + 0*x + 2,lasr,True,False,0.009323204419889503,0.6666666666666666
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_19,3*x**2 + -2*x + 0,direct,False,False,1.7475728155339805,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_19,3*x**2 + -2*x + 0,cot,False,False,1.0145631067961165,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_19,3*x**2 + -2*x + 0,llmsr,True,False,1.4766250730738938e-29,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_19,3*x**2 + -2*x + 0,lasr,False,False,0.04854368932038835,0.3333333333333333
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_20,2*x**3 + 0*x + 5,direct,False,False,1.9509668508287292,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_20,2*x**3 + 0*x + 5,cot,False,False,2.0552486187845305,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_20,2*x**3 + 0*x + 5,llmsr,True,False,3.884159330016385e-29,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_20,2*x**3 + 0*x + 5,lasr,False,False,0.35151933701657456,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),direct,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),cot,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),llmsr,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),lasr,False,False,inf,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),direct,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),cot,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),llmsr,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),lasr,False,False,inf,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,direct,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,cot,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,llmsr,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,lasr,False,False,inf,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_24,-E_n/(Ef*cos(theta)),direct,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_24,-E_n/(Ef*cos(theta)),cot,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_24,-E_n/(Ef*cos(theta)),llmsr,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_24,-E_n/(Ef*cos(theta)),lasr,False,False,inf,1.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),direct,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),cot,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),llmsr,False,False,inf,0.0
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),lasr,False,False,inf,1.0
+microsoft/phi-2,eq_1,1*x + -4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_1,1*x + -4,cot,False,False,74.5,0.0
+microsoft/phi-2,eq_1,1*x + -4,llmsr,True,False,1.9047460962263949e-16,1.0
+microsoft/phi-2,eq_1,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+microsoft/phi-2,eq_2,2*x**3 + -2*x + -4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_2,2*x**3 + -2*x + -4,cot,False,False,1.1434294871794872,0.0
+microsoft/phi-2,eq_2,2*x**3 + -2*x + -4,llmsr,True,False,4.7934045693609767e-29,1.0
+microsoft/phi-2,eq_2,2*x**3 + -2*x + -4,lasr,False,False,0.10897435897435898,0.3333333333333333
+microsoft/phi-2,eq_3,5*x**2 + -3*x + 4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_3,5*x**2 + -3*x + 4,cot,False,False,2.130605381165919,0.0
+microsoft/phi-2,eq_3,5*x**2 + -3*x + 4,llmsr,True,False,1.0390943055935288e-29,1.0
+microsoft/phi-2,eq_3,5*x**2 + -3*x + 4,lasr,False,False,0.35986547085201787,0.0
+microsoft/phi-2,eq_4,1*x + -4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_4,1*x + -4,cot,False,False,74.5,0.0
+microsoft/phi-2,eq_4,1*x + -4,llmsr,True,True,0.0,1.0
+microsoft/phi-2,eq_4,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+microsoft/phi-2,eq_5,2*x + 4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_5,2*x + 4,cot,False,False,3.375,0.0
+microsoft/phi-2,eq_5,2*x + 4,llmsr,True,False,7.198355760141733e-30,1.0
+microsoft/phi-2,eq_5,2*x + 4,lasr,True,True,0.0,1.0
+microsoft/phi-2,eq_6,5*x**3 + -1*x + 5,direct,False,False,inf,0.0
+microsoft/phi-2,eq_6,5*x**3 + -1*x + 5,cot,False,False,2.0905368516833485,0.0
+microsoft/phi-2,eq_6,5*x**3 + -1*x + 5,llmsr,False,False,0.06824385805277525,0.3333333333333333
+microsoft/phi-2,eq_6,5*x**3 + -1*x + 5,lasr,False,False,0.06107825295723385,0.0
+microsoft/phi-2,eq_7,5*x**2 + 2*x + -2,direct,False,False,inf,0.0
+microsoft/phi-2,eq_7,5*x**2 + 2*x + -2,cot,False,False,2.0890318212593093,0.0
+microsoft/phi-2,eq_7,5*x**2 + 2*x + -2,llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_7,5*x**2 + 2*x + -2,lasr,False,False,0.23358158429248474,0.0
+microsoft/phi-2,eq_8,5*x + 0,direct,False,False,inf,0.0
+microsoft/phi-2,eq_8,5*x + 0,cot,False,False,1.86,0.0
+microsoft/phi-2,eq_8,5*x + 0,llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_8,5*x + 0,lasr,False,False,0.16,0.3333333333333333
+microsoft/phi-2,eq_9,4*x + 1,direct,False,False,inf,0.0
+microsoft/phi-2,eq_9,4*x + 1,cot,False,False,1.75,0.0
+microsoft/phi-2,eq_9,4*x + 1,llmsr,True,False,0.0,1.0
+microsoft/phi-2,eq_9,4*x + 1,lasr,False,False,0.09375,0.3333333333333333
+microsoft/phi-2,eq_10,2*x + 1,direct,False,False,inf,0.0
+microsoft/phi-2,eq_10,2*x + 1,cot,False,False,inf,0.0
+microsoft/phi-2,eq_10,2*x + 1,llmsr,True,False,2.9582283945787943e-31,1.0
+microsoft/phi-2,eq_10,2*x + 1,lasr,False,False,0.25,0.3333333333333333
+microsoft/phi-2,eq_11,4*x**2 + -3*x + 0,direct,False,False,inf,0.0
+microsoft/phi-2,eq_11,4*x**2 + -3*x + 0,cot,False,False,inf,0.0
+microsoft/phi-2,eq_11,4*x**2 + -3*x + 0,llmsr,True,False,0.01434034416826004,0.6666666666666666
+microsoft/phi-2,eq_11,4*x**2 + -3*x + 0,lasr,True,False,0.011472275334608031,0.6666666666666666
+microsoft/phi-2,eq_12,5*x**3 + 0*x + -5,direct,False,False,inf,0.0
+microsoft/phi-2,eq_12,5*x**3 + 0*x + -5,cot,False,False,1.7721546961325967,0.0
+microsoft/phi-2,eq_12,5*x**3 + 0*x + -5,llmsr,False,False,0.06629834254143646,0.3333333333333333
+microsoft/phi-2,eq_12,5*x**3 + 0*x + -5,lasr,True,False,0.02243093922651934,0.6666666666666666
+microsoft/phi-2,eq_13,4*x**2 + 4*x + -4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_13,4*x**2 + 4*x + -4,cot,False,False,1.9675164473684208,0.0
+microsoft/phi-2,eq_13,4*x**2 + 4*x + -4,llmsr,True,False,2.656566946447404e-31,1.0
+microsoft/phi-2,eq_13,4*x**2 + 4*x + -4,lasr,False,False,0.3059210526315789,0.0
+microsoft/phi-2,eq_14,1*x**3 + 4*x + -1,direct,False,False,inf,0.0
+microsoft/phi-2,eq_14,1*x**3 + 4*x + -1,cot,False,False,1.7641196013289036,0.0
+microsoft/phi-2,eq_14,1*x**3 + 4*x + -1,llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_14,1*x**3 + 4*x + -1,lasr,False,False,0.21760797342192692,0.0
+microsoft/phi-2,eq_15,5*x + 1,direct,False,False,inf,0.0
+microsoft/phi-2,eq_15,5*x + 1,cot,False,False,2.52,0.0
+microsoft/phi-2,eq_15,5*x + 1,llmsr,True,True,0.0,1.0
+microsoft/phi-2,eq_15,5*x + 1,lasr,True,False,0.04,0.6666666666666666
+microsoft/phi-2,eq_16,1*x + -4,direct,False,False,inf,0.0
+microsoft/phi-2,eq_16,1*x + -4,cot,False,False,74.5,0.0
+microsoft/phi-2,eq_16,1*x + -4,llmsr,True,True,0.0,1.0
+microsoft/phi-2,eq_16,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+microsoft/phi-2,eq_17,3*x + -3,direct,False,False,inf,0.0
+microsoft/phi-2,eq_17,3*x + -3,cot,False,False,0.7777777777777778,0.0
+microsoft/phi-2,eq_17,3*x + -3,llmsr,True,False,3.199269226729659e-30,1.0
+microsoft/phi-2,eq_17,3*x + -3,lasr,False,False,0.2777777777777778,0.3333333333333333
+microsoft/phi-2,eq_18,4*x**3 + 0*x + 2,direct,False,False,inf,0.0
+microsoft/phi-2,eq_18,4*x**3 + 0*x + 2,cot,False,False,1.9784185082872927,0.0
+microsoft/phi-2,eq_18,4*x**3 + 0*x + 2,llmsr,True,False,2.1713832250962615e-29,1.0
+microsoft/phi-2,eq_18,4*x**3 + 0*x + 2,lasr,True,False,0.009323204419889503,0.6666666666666666
+microsoft/phi-2,eq_19,3*x**2 + -2*x + 0,direct,False,False,inf,0.0
+microsoft/phi-2,eq_19,3*x**2 + -2*x + 0,cot,False,False,1.0145631067961165,0.0
+microsoft/phi-2,eq_19,3*x**2 + -2*x + 0,llmsr,False,False,0.02912621359223301,0.3333333333333333
+microsoft/phi-2,eq_19,3*x**2 + -2*x + 0,lasr,False,False,0.04854368932038835,0.3333333333333333
+microsoft/phi-2,eq_20,2*x**3 + 0*x + 5,direct,False,False,inf,0.0
+microsoft/phi-2,eq_20,2*x**3 + 0*x + 5,cot,False,False,2.0552486187845305,0.0
+microsoft/phi-2,eq_20,2*x**3 + 0*x + 5,llmsr,True,False,3.884159330016385e-29,1.0
+microsoft/phi-2,eq_20,2*x**3 + 0*x + 5,lasr,False,False,0.35151933701657456,0.0
+microsoft/phi-2,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),direct,False,False,inf,1.0
+microsoft/phi-2,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),cot,False,False,inf,0.0
+microsoft/phi-2,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),lasr,False,False,inf,1.0
+microsoft/phi-2,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),direct,False,False,inf,1.0
+microsoft/phi-2,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),cot,False,False,inf,0.0
+microsoft/phi-2,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),lasr,False,False,inf,1.0
+microsoft/phi-2,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,direct,False,False,inf,0.0
+microsoft/phi-2,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,cot,False,False,inf,0.0
+microsoft/phi-2,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,lasr,False,False,inf,1.0
+microsoft/phi-2,eq_24,-E_n/(Ef*cos(theta)),direct,False,False,inf,1.0
+microsoft/phi-2,eq_24,-E_n/(Ef*cos(theta)),cot,False,False,inf,0.0
+microsoft/phi-2,eq_24,-E_n/(Ef*cos(theta)),llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_24,-E_n/(Ef*cos(theta)),lasr,False,False,inf,1.0
+microsoft/phi-2,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),direct,False,False,inf,0.0
+microsoft/phi-2,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),cot,False,False,inf,0.0
+microsoft/phi-2,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),llmsr,False,False,inf,0.0
+microsoft/phi-2,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),lasr,False,False,inf,1.0
+gpt2-xl,eq_1,1*x + -4,direct,False,False,inf,0.0
+gpt2-xl,eq_1,1*x + -4,cot,False,False,inf,0.0
+gpt2-xl,eq_1,1*x + -4,llmsr,False,False,138.0,0.0
+gpt2-xl,eq_1,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+gpt2-xl,eq_2,2*x**3 + -2*x + -4,direct,False,False,inf,0.0
+gpt2-xl,eq_2,2*x**3 + -2*x + -4,cot,False,False,inf,0.0
+gpt2-xl,eq_2,2*x**3 + -2*x + -4,llmsr,False,False,0.07692307692307693,0.3333333333333333
+gpt2-xl,eq_2,2*x**3 + -2*x + -4,lasr,False,False,0.10897435897435898,0.3333333333333333
+gpt2-xl,eq_3,5*x**2 + -3*x + 4,direct,False,False,inf,0.0
+gpt2-xl,eq_3,5*x**2 + -3*x + 4,cot,False,False,inf,0.0
+gpt2-xl,eq_3,5*x**2 + -3*x + 4,llmsr,False,False,0.020179372197309413,0.3333333333333333
+gpt2-xl,eq_3,5*x**2 + -3*x + 4,lasr,False,False,0.35986547085201787,0.0
+gpt2-xl,eq_4,1*x + -4,direct,False,False,inf,0.0
+gpt2-xl,eq_4,1*x + -4,cot,False,False,inf,0.0
+gpt2-xl,eq_4,1*x + -4,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_4,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+gpt2-xl,eq_5,2*x + 4,direct,False,False,inf,0.0
+gpt2-xl,eq_5,2*x + 4,cot,False,False,inf,0.0
+gpt2-xl,eq_5,2*x + 4,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_5,2*x + 4,lasr,True,True,0.0,1.0
+gpt2-xl,eq_6,5*x**3 + -1*x + 5,direct,False,False,inf,0.0
+gpt2-xl,eq_6,5*x**3 + -1*x + 5,cot,False,False,inf,0.0
+gpt2-xl,eq_6,5*x**3 + -1*x + 5,llmsr,False,False,0.06824385805277525,0.3333333333333333
+gpt2-xl,eq_6,5*x**3 + -1*x + 5,lasr,False,False,0.06107825295723385,0.0
+gpt2-xl,eq_7,5*x**2 + 2*x + -2,direct,False,False,inf,0.0
+gpt2-xl,eq_7,5*x**2 + 2*x + -2,cot,False,False,inf,0.0
+gpt2-xl,eq_7,5*x**2 + 2*x + -2,llmsr,False,False,0.016926201760324947,0.3333333333333333
+gpt2-xl,eq_7,5*x**2 + 2*x + -2,lasr,False,False,0.23358158429248474,0.0
+gpt2-xl,eq_8,5*x + 0,direct,False,False,inf,0.0
+gpt2-xl,eq_8,5*x + 0,cot,False,False,inf,0.0
+gpt2-xl,eq_8,5*x + 0,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_8,5*x + 0,lasr,False,False,0.16,0.3333333333333333
+gpt2-xl,eq_9,4*x + 1,direct,False,False,inf,0.0
+gpt2-xl,eq_9,4*x + 1,cot,False,False,inf,0.0
+gpt2-xl,eq_9,4*x + 1,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_9,4*x + 1,lasr,False,False,0.09375,0.3333333333333333
+gpt2-xl,eq_10,2*x + 1,direct,False,False,inf,0.0
+gpt2-xl,eq_10,2*x + 1,cot,False,False,inf,0.0
+gpt2-xl,eq_10,2*x + 1,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_10,2*x + 1,lasr,False,False,0.25,0.3333333333333333
+gpt2-xl,eq_11,4*x**2 + -3*x + 0,direct,False,False,inf,0.0
+gpt2-xl,eq_11,4*x**2 + -3*x + 0,cot,False,False,inf,0.0
+gpt2-xl,eq_11,4*x**2 + -3*x + 0,llmsr,True,False,0.01434034416826004,0.6666666666666666
+gpt2-xl,eq_11,4*x**2 + -3*x + 0,lasr,True,False,0.011472275334608031,0.6666666666666666
+gpt2-xl,eq_12,5*x**3 + 0*x + -5,direct,False,False,inf,0.0
+gpt2-xl,eq_12,5*x**3 + 0*x + -5,cot,False,False,inf,0.0
+gpt2-xl,eq_12,5*x**3 + 0*x + -5,llmsr,True,False,3.302581433924165e-30,1.0
+gpt2-xl,eq_12,5*x**3 + 0*x + -5,lasr,True,False,0.02243093922651934,0.6666666666666666
+gpt2-xl,eq_13,4*x**2 + 4*x + -4,direct,False,False,inf,0.0
+gpt2-xl,eq_13,4*x**2 + 4*x + -4,cot,False,False,inf,0.0
+gpt2-xl,eq_13,4*x**2 + 4*x + -4,llmsr,False,False,0.013157894736842082,0.3333333333333333
+gpt2-xl,eq_13,4*x**2 + 4*x + -4,lasr,False,False,0.3059210526315789,0.0
+gpt2-xl,eq_14,1*x**3 + 4*x + -1,direct,False,False,inf,0.0
+gpt2-xl,eq_14,1*x**3 + 4*x + -1,cot,False,False,inf,0.0
+gpt2-xl,eq_14,1*x**3 + 4*x + -1,llmsr,True,False,0.0016611295681063123,1.0
+gpt2-xl,eq_14,1*x**3 + 4*x + -1,lasr,False,False,0.21760797342192692,0.0
+gpt2-xl,eq_15,5*x + 1,direct,False,False,inf,0.0
+gpt2-xl,eq_15,5*x + 1,cot,False,False,inf,0.0
+gpt2-xl,eq_15,5*x + 1,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_15,5*x + 1,lasr,True,False,0.04,0.6666666666666666
+gpt2-xl,eq_16,1*x + -4,direct,False,False,inf,0.0
+gpt2-xl,eq_16,1*x + -4,cot,False,False,inf,0.0
+gpt2-xl,eq_16,1*x + -4,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_16,1*x + -4,lasr,False,False,1.0,0.3333333333333333
+gpt2-xl,eq_17,3*x + -3,direct,False,False,inf,0.0
+gpt2-xl,eq_17,3*x + -3,cot,False,False,inf,0.0
+gpt2-xl,eq_17,3*x + -3,llmsr,True,True,0.0,1.0
+gpt2-xl,eq_17,3*x + -3,lasr,False,False,0.2777777777777778,0.3333333333333333
+gpt2-xl,eq_18,4*x**3 + 0*x + 2,direct,False,False,inf,0.0
+gpt2-xl,eq_18,4*x**3 + 0*x + 2,cot,False,False,inf,0.0
+gpt2-xl,eq_18,4*x**3 + 0*x + 2,llmsr,False,False,0.039191988950276244,0.3333333333333333
+gpt2-xl,eq_18,4*x**3 + 0*x + 2,lasr,True,False,0.009323204419889503,0.6666666666666666
+gpt2-xl,eq_19,3*x**2 + -2*x + 0,direct,False,False,inf,0.0
+gpt2-xl,eq_19,3*x**2 + -2*x + 0,cot,False,False,inf,0.0
+gpt2-xl,eq_19,3*x**2 + -2*x + 0,llmsr,False,False,0.02912621359223301,0.3333333333333333
+gpt2-xl,eq_19,3*x**2 + -2*x + 0,lasr,False,False,0.04854368932038835,0.3333333333333333
+gpt2-xl,eq_20,2*x**3 + 0*x + 5,direct,False,False,inf,0.0
+gpt2-xl,eq_20,2*x**3 + 0*x + 5,cot,False,False,inf,0.0
+gpt2-xl,eq_20,2*x**3 + 0*x + 5,llmsr,True,False,3.884159330016385e-29,1.0
+gpt2-xl,eq_20,2*x**3 + 0*x + 5,lasr,False,False,0.35151933701657456,0.0
+gpt2-xl,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),direct,False,False,inf,0.0
+gpt2-xl,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),cot,False,False,inf,0.0
+gpt2-xl,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),llmsr,False,False,inf,1.0
+gpt2-xl,eq_21,8*pi*Ef*epsilon*r**3/(3*sin(2*theta)),lasr,False,False,inf,1.0
+gpt2-xl,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),direct,False,False,inf,0.0
+gpt2-xl,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),cot,False,False,inf,0.0
+gpt2-xl,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),llmsr,False,False,inf,0.0
+gpt2-xl,eq_22,4*pi*Ef*epsilon*r**5/(3*z*sqrt(x**2 + y**2)),lasr,False,False,inf,1.0
+gpt2-xl,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,direct,False,False,inf,0.0
+gpt2-xl,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,cot,False,False,inf,0.0
+gpt2-xl,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,llmsr,False,False,inf,0.0
+gpt2-xl,eq_23,M*alpha/(c**2*epsilon) + T*f*kb/mom,lasr,False,False,inf,1.0
+gpt2-xl,eq_24,-E_n/(Ef*cos(theta)),direct,False,False,inf,0.0
+gpt2-xl,eq_24,-E_n/(Ef*cos(theta)),cot,False,False,inf,0.0
+gpt2-xl,eq_24,-E_n/(Ef*cos(theta)),llmsr,False,False,inf,0.0
+gpt2-xl,eq_24,-E_n/(Ef*cos(theta)),lasr,False,False,inf,1.0
+gpt2-xl,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),direct,False,False,inf,0.0
+gpt2-xl,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),cot,False,False,inf,0.0
+gpt2-xl,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),llmsr,False,False,inf,0.0
+gpt2-xl,eq_25,-c*sqrt(1 - c**4*m**2/E_n**2),lasr,False,False,inf,1.0
