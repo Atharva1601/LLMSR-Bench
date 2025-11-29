@@ -90,12 +90,11 @@ Drops significantly on transform equations (6–7%) due to multivariable physics
 LaSR scores 100% on transform for some models (trivial expressions), but lower on synthetic.
 
 🆚 Paper Comparison
-Method	           Paper Accuracy	  My Implementation
-LLMSR                 ~67%	                ~66%
-LaSR	              ~63%	                ~47%
+
+Method:LLMSR ----Paper accuracy:~67%  Project Accuracy:~66%
+Method:LaSR ----Paper accuracy:~63%  Project Accuracy:~47%
 
 Implementation slightly matches paper results because:
-
 Simpler datasets was used
 Synthetic equations are easier to recover
 Applied numerical tuning + simplification
