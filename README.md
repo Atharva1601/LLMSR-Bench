@@ -101,31 +101,6 @@ Synthetic equations are easier to recover
 Applied numerical tuning + simplification
 
 
-🧬 Project Structure
-LLMSR-bench/
-│
-├── final.py                # Main benchmark runner
-│
-│
-├── methods/
-│   ├── direct/             # Direct prompting
-│   ├── cot/                # Chain of Thought prompting
-│   ├── llmsr/              # LLMSR engine (optimizers + LLM proposals)
-│   ├── lasr/lasr.py        # LaSR-v2 evolutionary regressor
-│
-├── bench/
-│   ├── evaluator.py        # Accuracy evaluation utilities
-│
-├── datasets/
-│   ├── ltransform_dataset.json   # Transform dataset (5 equations used)
-│
-├── results.csv             # Final benchmark results
-├── requirements.txt        # Environment dependencies
-└── README.md
-
-
-
-
 📚 Reference
 
 This work is inspired by:
